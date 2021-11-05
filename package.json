@@ -1,0 +1,35 @@
+{
+  "name": "figma-plagin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=production nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geksin/figma-plagin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geksin/figma-plagin/issues"
+  },
+  "homepage": "https://github.com/geksin/figma-plagin#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.0",
+    "express-winston": "^4.2.0",
+    "request": "^2.88.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
